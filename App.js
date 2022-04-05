@@ -54,7 +54,7 @@ const App = () => {
 function HomeScreen({route, navigation}) {
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-    <Text>Feed</Text>
+    <Text>Feedsss</Text>
       <Button
         title="Feed"
         onPress={() => {
