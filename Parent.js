@@ -7,20 +7,17 @@ import { NavigationContainer } from '@react-navigation/native';
 function ParentScreen({navigation}) {
 
     return (
-      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-            <Text>Parent</Text>
+      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center', flexDirection:'row', justifyContent:"space-around"}}>
             <Button
-          title="ParentScreen"
+          title="Home"
           onPress={() => navigation.navigate('Home')}
         />
-             <Text>Profile</Text>
             <Button
-          title="ProfileScreen"
+          title="Profile"
           onPress={() => navigation.navigate('Profile')}
         />
-             <Text>Settings</Text>
             <Button
-          title="SettingsScreen"
+          title="Settings"
           onPress={() => navigation.navigate('Settings')}
         />
         
